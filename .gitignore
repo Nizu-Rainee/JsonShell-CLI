@@ -1,7 +1,11 @@
-# Byte-compiled / optimized / DLL files
+# Ignore task/save files
+*.json
+
+# Python cache
 __pycache__/
-*.py[codz]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # C extensions
 *.so
